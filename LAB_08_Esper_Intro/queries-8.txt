@@ -1,0 +1,41 @@
+/*
+//QUERIES
+//zad24
+
+"select irstream spolka as X, kursOtwarcia as Y " +
+"from KursAkcji.win:length(3) " +
+"where spolka = 'Oracle' "
+
+//zad25
+
+"select irstream data, kursOtwarcia, spolka " +
+"from KursAkcji.win:length(3) " +
+"where spolka = 'Oracle' "
+
+//zad26
+
+"select irstream data, kursOtwarcia, spolka " +
+"from KursAkcji(spolka='Oracle').win:length(3) "
+
+//zad27
+
+"select istream data, kursOtwarcia, spolka " +
+"from KursAkcji(spolka='Oracle').win:length(3) "
+
+//zad28
+
+"select istream data, max(kursOtwarcia), spolka " +
+"from KursAkcji(spolka='Oracle').win:length(5) "
+
+//zad29
+
+"select istream data, kursOtwarcia - max(kursOtwarcia) as roznica, spolka " +
+"from KursAkcji(spolka='Oracle').win:length(5) "
+
+//zad30
+
+"select istream data, kursOtwarcia - min(kursOtwarcia) as roznica, spolka " +
+"from KursAkcji(spolka='Oracle').win:length(2) " +
+"having kursOtwarcia > MIN(kursOtwarcia) "
+
+*/
